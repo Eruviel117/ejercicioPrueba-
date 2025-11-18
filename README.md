@@ -38,29 +38,54 @@ $$
 ### Ejercicio 1.1 — Matriz **A**
 
 #### Enunciado
+
+
 Calcular \(\det(\mathbf{A})\).
 
 #### Solución
+
+
 \[
 \det(\mathbf{A}) = (5)(1) - (2)(3) = 5 - 6 = -1
 \]
 
+
+
 #### Procedimiento
-1. Multiplicar diagonal principal: \(5 \cdot 1 = 5\).  
-2. Multiplicar diagonal secundaria: \(2 \cdot 3 = 6\).  
-3. Restar: \(5 - 6 = -1\).
+1. Multiplicar diagonal principal:
+2.
+3.   \(5 \cdot 1 = 5\).  
+4. Multiplicar diagonal secundaria:
+5.
+6.
+7.    \(2 \cdot 3 = 6\).
+
+
+8. Restar: \(5 - 6 = -1\).
 
 ---
 
 ### Ejercicio 1.2 — Matriz **B**
 
 #### Enunciado
-Calcular \(\det(\mathbf{B})\).
+Calcular 
+
+
+\(\det(\mathbf{B})\).
+
+
 
 #### Solución
+
+
+
+
 \[
 \det(\mathbf{B}) = (-1)(-8) - (4)(2) = 8 - 8 = 0
 \]
+
+
+
 
 #### Procedimiento
 1. DP: \((-1)(-8)=8\)  
