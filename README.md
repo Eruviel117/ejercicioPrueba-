@@ -12,9 +12,16 @@
 
 En este documento se presenta la **resolución completa del Ejercicio 1**, donde se calculan los determinantes de matrices 2×2 utilizando la fórmula general:
 
+
+
+
 [
 \det(A)=ad-bc
 ]
+
+
+
+
 
 Cada inciso incluye:
 
