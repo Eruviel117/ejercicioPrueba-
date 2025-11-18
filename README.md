@@ -1,7 +1,7 @@
 # Ejercicios de Álgebra Lineal — Determinantes y Aplicaciones
 
 Alumno: Euruviel Márquez Martínez  
-Grupo: 2103-B
+Grupo: 1C
 
 ---
 
@@ -108,6 +108,9 @@ $$ **C** =
 2 & 3 \\
 \end{pmatrix}
 $$
+
+
+
 ### **Respuesta**
 
 det(C)=0
@@ -117,10 +120,10 @@ det(C)=0
 
 1. Diagonal principal:
 
-   * (6 \cdot 3 = 18)
+   * (6 * 3 = 18)
 2. Diagonal secundaria:
 
-   * (9 \cdot 2 = 18)
+   * (9 * 2 = 18)
 3. Restar:
 
    * (18 - 18 = 0)
@@ -243,34 +246,55 @@ $$
 
 ### **Respuesta**
 
-**det(G) = -9**
+**det(G) = 9**
 
 ### **Procedimiento (Cofactores)**
 
-Se elige la **columna 2** por contener ceros.
 
-1. El único elemento no nulo es:
+1. sacamos las matrices de deaca elemento :
 
-   * (a_{2,2} = 3)
-2. Su menor se obtiene eliminando fila 2 y columna 2:
+2. primer matrices 
 
-```
-[ 1   2 ]
-[ 2   1 ]
-```
+$$ **1** =
+\begin{pmatrix}
+3 & 1 \\
+0 & 1 \\
+\end{pmatrix}
+$$
 
-3. Determinante del menor:
+det= 3
 
-   * (1·1) − (2·2) = 1 − 4 = -3
-4. Cofactor:
+3. Segunda matrices 
 
-   * signo positivo → C₂₂ = -3
-5. Aporte:
+$$ **-0** =
+\begin{pmatrix}
+-1 & 1 \\
+2 & 1 \\
+\end{pmatrix}
+$$
 
-   * 3 × (-3) = -9
+det = 0
+
+
+4. Tercer matriz 
+
+
+$$ **2** =
+\begin{pmatrix}
+-1 & 3 \\
+2 & 1 \\
+\end{pmatrix}
+$$
+
+det = -12 
+
+5. Determinante el determinante total :
+
+det = 3 + 0 + (-12)
+
 
 Resultado final:
-**det(G) = -9**
+**det(G) = 9**
 
 
 ---
