@@ -1,150 +1,166 @@
-# README – Ejercicios de fundamentos de Álgebra 
+# 📘 Álgebra Lineal – Ejercicio 1: Determinantes 2×2
 
-Documnetacion de los ejercicios de matrices Álgebra 
+## 👨‍🏫 Información del Estudiante
 
----
-
-## **Ejercicio 1: Determinante de una matriz 2×2**
-
-Dada la matriz:
-
-
-
-[ A = \begin{pmatrix} a & b \ c & d \end{pmatrix} ]
-
-
-
-
-El determinante se calcula como:
-
-
-
-
-[ \det(A) = ad - bc ]
+* **Nombre:** Euruviel Márquez Martínez
+* **Grupo:** 2103-B
+* **Materia:** Álgebra Lineal
 
 ---
 
-## **Ejercicio 2: Suma, resta y multiplicación de matrices**
+## 📋 Descripción del Ejercicio
 
-Dadas las matrices:
+En este documento se presenta la **resolución completa del Ejercicio 1**, donde se calculan los determinantes de matrices 2×2 utilizando la fórmula general:
+
 [
-A = \begin{pmatrix} 2 & 1 \ 1 & 3 \end{pmatrix}, \quad
-B = \begin{pmatrix} 1 & 2 \ 3 & 1 \end{pmatrix}
+\det(A)=ad-bc
 ]
 
-### **A + B**
+Cada inciso incluye:
 
-Se suman elemento a elemento:
-[
-A + B = \begin{pmatrix} 3 & 3 \ 4 & 4 \end{pmatrix}
-]
+* Enunciado del problema
+* Solución o respuesta final
+* Procedimiento paso a paso
 
-### **A − B**
+---
 
-[
-A - B = \begin{pmatrix} 1 & -1 \ -2 & 2 \end{pmatrix}
-]
+# 🔢 **Ejercicio 1: Determinantes 2×2**
 
-### **Multiplicación AB**
+A continuación se calculan los determinantes de las siguientes matrices:
 
 [
-AB = \begin{pmatrix}
-(2)(1) + (1)(3) & (2)(2) + (1)(1) \
-(1)(1) + (3)(3) & (1)(2) + (3)(1)
-\end{pmatrix}
-= \begin{pmatrix} 5 & 5 \ 10 & 5 \end{pmatrix}
+A=\begin{pmatrix} 5 & 2 \ 3 & 1 \end{pmatrix}, \quad
+B=\begin{pmatrix} -1 & 4 \ 2 & -8 \end{pmatrix}, \quad
+C=\begin{pmatrix} 6 & 9 \ 2 & 3 \end{pmatrix}, \quad
+D=\begin{pmatrix} 0 & 5 \ -5 & 0 \end{pmatrix}
 ]
 
 ---
 
-## **Ejercicio 3: Determinante de AB, A y B**
+## ✅ **Ejercicio 1.1 – Determinante de la matriz A**
 
-### **Determinante de A**
+### **Enunciado**
 
+Calcular el determinante de:
 [
-\det(A) = (2)(3) - (1)(1) = 6 - 1 = 5
+A=\begin{pmatrix} 5 & 2 \ 3 & 1 \end{pmatrix}
 ]
 
-### **Determinante de B**
+### **Respuesta**
 
 [
-\det(B) = (1)(1) - (2)(3) = 1 - 6 = -5
+\det(A)=-1
 ]
 
-### **Determinante de AB**
+### **Procedimiento**
 
-Usando la matriz calculada:
-[
-AB = \begin{pmatrix} 5 & 5 \ 10 & 5 \end{pmatrix}
-]
-[
-\det(AB) = (5)(5) - (5)(10) = 25 - 50 = -25
-]
+1. Multiplicar la diagonal principal:
 
-### **Verificación de la propiedad**
+   * (5 \cdot 1 = 5)
+2. Multiplicar la diagonal secundaria:
 
-[
-\det(AB) = \det(A)\cdot\det(B)
-]
-[
--25 = (5)(-5)
-]
-✔ **Propiedad verificada**
+   * (2 \cdot 3 = 6)
+3. Aplicar la fórmula del determinante:
+
+   * (5 - 6 = -1)
 
 ---
 
-## **Ejercicio 4: Det(Aᵀ)**
+## ✅ **Ejercicio 1.2 – Determinante de la matriz B**
 
-La matriz transpuesta de A es:
+### **Enunciado**
+
 [
-A^T = \begin{pmatrix} 2 & 1 \ 1 & 3 \end{pmatrix}
+B=\begin{pmatrix} -1 & 4 \ 2 & -8 \end{pmatrix}
 ]
-Es igual a la original, por lo tanto:
+
+### **Respuesta**
+
 [
-\det(A^T) = \det(A) = 5
+\det(B)=0
 ]
-✔ **Propiedad verificada**
+
+### **Procedimiento**
+
+1. Diagonal principal:
+
+   * ((-1)(-8)=8)
+2. Diagonal secundaria:
+
+   * (4 \cdot 2 = 8)
+3. Restar:
+
+   * (8 - 8 = 0)
+
+> *Nota:* Un determinante igual a cero indica que la matriz es **singular**.
 
 ---
 
-## **Ejercicio 5: Aplicación geométrica con vectores**
+## ✅ **Ejercicio 1.3 – Determinante de la matriz C**
 
-Dado:
-[
-\vec{u} = (3,2), \quad \vec{v} = (1,4)
-]
-
-El área del paralelogramo es:
-[
-|\det\begin{pmatrix} 3 & 1 \ 2 & 4 \end{pmatrix}| = |(3)(4)-(1)(2)| = |12 - 2| = 10
-]
-✔ **Área = 10 unidades²**
-
-### **b) ¿Cambia si se intercambian los vectores?**
+### **Enunciado**
 
 [
-\det\begin{pmatrix} 1 & 3 \ 4 & 2 \end{pmatrix} = (1)(2)-(3)(4) = 2 - 12 = -10
+C=\begin{pmatrix} 6 & 9 \ 2 & 3 \end{pmatrix}
 ]
-El valor cambia de signo, pero el **área = |det| = 10** sigue siendo la misma.
 
-### **c) Interpretación del signo**
+### **Respuesta**
 
-El signo indica orientación:
+[
+\det(C)=0
+]
 
-* **Positivo** → orientación antihoraria.
-* **Negativo** → orientación horaria.
+### **Procedimiento**
 
-El área siempre se toma en valor absoluto.
+1. Diagonal principal:
+
+   * (6 \cdot 3 = 18)
+2. Diagonal secundaria:
+
+   * (9 \cdot 2 = 18)
+3. Restar:
+
+   * (18 - 18 = 0)
 
 ---
 
-## **Conclusión General**
+## ✅ **Ejercicio 1.4 – Determinante de la matriz D**
 
-En estos ejercicios se aplicaron propiedades fundamentales de matrices y determinantes:
+### **Enunciado**
 
-* El determinante del producto es el producto de determinantes.
-* El determinante no cambia al transponer una matriz.
-* El determinante de dos vectores en R² representa el **área** del paralelogramo.
-* El signo del determinante indica **orientación**, no afecta al área.
+[
+D=\begin{pmatrix} 0 & 5 \ -5 & 0 \end{pmatrix}
+]
 
-Con esto se confirma cómo los determinantes conectan álgebra lineal con geometría.
+### **Respuesta**
+
+[
+\det(D)=25
+]
+
+### **Procedimiento**
+
+1. Diagonal principal:
+
+   * (0 \cdot 0 = 0)
+2. Diagonal secundaria:
+
+   * (5 \cdot (-5) = -25)
+3. Restar:
+
+   * (0 - (-25) = 25)
+
+> *Nota:* El determinante positivo indica preservación de orientación.
+
+---
+
+## 🧩 **Conclusión General**
+
+En todos los ejercicios se aplicó correctamente la fórmula del determinante 2×2. Se identificó claramente:
+
+* Qué matrices son singulares (det = 0)
+* Cuándo el determinante es positivo o negativo
+* La importancia de las diagonales en el cálculo
+
+Este procedimiento es fundamental para temas posteriores como **inversas**, **áreas**, **regla de Cramer** y **propiedades de transformaciones lineales**.
+
