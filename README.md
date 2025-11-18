@@ -14,11 +14,11 @@ En este documento se presenta la **resolución completa del Ejercicio 1**, donde
 
 
 
+A = [ 5   2 ]
+    [ 3   1 ]
 
-[
-\det(A)=ad-bc
-]
-
+B = [ -1   4 ]
+    [  2  -8 ]
 
 
 
