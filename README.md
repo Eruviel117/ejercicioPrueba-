@@ -40,15 +40,18 @@ $$
 ### **Enunciado**
 
 Calcular el determinante de:
-[
-A=\begin{pmatrix} 5 & 2 \ 3 & 1 \end{pmatrix}
-]
+
+$$ **A** =
+\begin{pmatrix}
+5 & 3 \\
+2 & 1 \\
+\end{pmatrix}
+$$
 
 ### **Respuesta**
 
-[
-\det(A)=-1
-]
+det(A)=-1
+
 
 ### **Procedimiento**
 
@@ -68,15 +71,17 @@ A=\begin{pmatrix} 5 & 2 \ 3 & 1 \end{pmatrix}
 
 ### **Enunciado**
 
-[
-B=\begin{pmatrix} -1 & 4 \ 2 & -8 \end{pmatrix}
-]
+$$ **B** =
+\begin{pmatrix}
+-1 & 4 \\
+2 & -8 \\
+\end{pmatrix}
+$$
 
 ### **Respuesta**
 
-[
-\det(B)=0
-]
+det(B)=0
+
 
 ### **Procedimiento**
 
@@ -90,7 +95,6 @@ B=\begin{pmatrix} -1 & 4 \ 2 & -8 \end{pmatrix}
 
    * (8 - 8 = 0)
 
-> *Nota:* Un determinante igual a cero indica que la matriz es **singular**.
 
 ---
 
@@ -98,15 +102,16 @@ B=\begin{pmatrix} -1 & 4 \ 2 & -8 \end{pmatrix}
 
 ### **Enunciado**
 
-[
-C=\begin{pmatrix} 6 & 9 \ 2 & 3 \end{pmatrix}
-]
-
+$$ **C** =
+\begin{pmatrix}
+6 & 9 \\
+2 & 3 \\
+\end{pmatrix}
+$$
 ### **Respuesta**
 
-[
-\det(C)=0
-]
+det(C)=0
+
 
 ### **Procedimiento**
 
@@ -126,15 +131,17 @@ C=\begin{pmatrix} 6 & 9 \ 2 & 3 \end{pmatrix}
 
 ### **Enunciado**
 
-[
-D=\begin{pmatrix} 0 & 5 \ -5 & 0 \end{pmatrix}
-]
+$$ **D** =
+\begin{pmatrix}
+0 & 5 \\
+-5 & 0 \\
+\end{pmatrix}
+$$
 
 ### **Respuesta**
 
-[
-\det(D)=25
-]
+det(D)=25
+
 
 ### **Procedimiento**
 
@@ -174,7 +181,7 @@ $$
 \end{pmatrix}
 $$
 
-> **Nota:** Aquí se muestra el procedimiento de Sarrus (diagonales positivas y negativas) y el resultado final.
+
 
 ### Ejercicio 2.1 — Matriz **E** (Sarrus)
 
@@ -194,9 +201,9 @@ Diagonales negativas:
 Suma negativas = \(15 + 24 + 0 = 39\)
 
 Resultado:
-\[
-\det(\mathbf{E}) = 40 - 39 = 1
-\]
+
+det E = 40 - 39 = 1
+
 
 ---
 
@@ -216,9 +223,8 @@ Diagonales negativas:
 Suma negativas = \(36 + 0 + 2 = 38\)
 
 Resultado:
-\[
-\det(\mathbf{F}) = (-10) - 38 = -48
-\]
+
+det F = (-10) - 38 = -48
 
 ---
 
