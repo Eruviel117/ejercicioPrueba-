@@ -1,7 +1,13 @@
 # Ejercicios de Álgebra Lineal — Determinantes y Aplicaciones
 
-Alumno: Euruviel Márquez Martínez  
+Información del Estudiante
+
+Nombre: Euruviel Márquez Martínez
+
 Grupo: 1C
+
+Materia: Fundamentos de Álgebra
+
 
 ---
 
@@ -354,8 +360,8 @@ Se forma la matriz cuyas columnas son los vectores:
 
 $$ **M** =
 \begin{pmatrix}
-3 & 1 \\
-2 & 4 \\
+3 & 2 \\
+1 & 4 \\
 \end{pmatrix}
 $$
 
@@ -372,8 +378,8 @@ det(M) = (3·4) − (1·2) = 12 − 2 = **10**
 
 $$ **M'** =
 \begin{pmatrix}
-1 & 3 \\
-4 & 2 \\
+1 & 4 \\
+3 & 2 \\
 \end{pmatrix}
 $$
 
