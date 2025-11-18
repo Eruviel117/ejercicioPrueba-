@@ -8,8 +8,17 @@ Documnetacion de los ejercicios de matrices Álgebra
 
 Dada la matriz:
 
+
+
 [ A = \begin{pmatrix} a & b \ c & d \end{pmatrix} ]
+
+
+
+
 El determinante se calcula como:
+
+
+
 
 [ \det(A) = ad - bc ]
 
