@@ -57,10 +57,10 @@ det(A)=-1
 
 1. Multiplicar la diagonal principal:
 
-   * (5 \cdot 1 = 5)
+   * (5 * 1 = 5)
 2. Multiplicar la diagonal secundaria:
 
-   * (2 \cdot 3 = 6)
+   * (2 * 3 = 6)
 3. Aplicar la fórmula del determinante:
 
    * (5 - 6 = -1)
@@ -90,7 +90,7 @@ det(B)=0
    * ((-1)(-8)=8)
 2. Diagonal secundaria:
 
-   * (4 \cdot 2 = 8)
+   * (4 * 2 = 8)
 3. Restar:
 
    * (8 - 8 = 0)
@@ -147,10 +147,10 @@ det(D)=25
 
 1. Diagonal principal:
 
-   * (0 \cdot 0 = 0)
+   * (0  * 0 = 0)
 2. Diagonal secundaria:
 
-   * (5 \cdot (-5) = -25)
+   * (5  (-5) = -25)
 3. Restar:
 
    * (0 - (-25) = 25)
@@ -189,15 +189,15 @@ $$
 Escribir las dos primeras columnas a la derecha y multiplicar las diagonales:
 
 Diagonales positivas:
-- \(1\cdot 1 \cdot 0 = 0\)
-- \(2\cdot 4 \cdot 5 = 40\)
-- \(3\cdot 0 \cdot 6 = 0\)  
-Suma positivas = \(0 + 40 + 0 = 40\)
+- (1 * 1 * 0 = 0)
+- (2 * 4 * 5 = 40)
+- (3 * 0 * 6 = 0)  
+Suma positivas = (0 + 40 + 0 = 40)
 
 Diagonales negativas:
-- \(3\cdot 1 \cdot 5 = 15\)
-- \(1\cdot 4 \cdot 6 = 24\)
-- \(2\cdot 0 \cdot 0 = 0\)  
+- (3 * 1 * 5 = 15)
+- (1 * 4 * 6 = 24)
+- (2 * 0 * 0 = 0)  
 Suma negativas = \(15 + 24 + 0 = 39\)
 
 Resultado:
@@ -211,16 +211,16 @@ det E = 40 - 39 = 1
 
 #### Procedimiento Sarrus
 Diagonales positivas:
-- \(2\cdot 4 \cdot (-2) = -16\)
-- \((-1)\cdot 0 \cdot 3 = 0\)
-- \(3\cdot 1 \cdot 2 = 6\)  
-Suma positivas = \(-16 + 0 + 6 = -10\)
+- (2 * 4 * (-2) = -16)
+- ((-1) * 0 * 3 = 0)
+- (3 * 1 * 2 = 6)  
+Suma positivas = (-16 + 0 + 6 = -10)
 
 Diagonales negativas:
-- \(3\cdot 4 \cdot 3 = 36\)
-- \(2\cdot 0 \cdot 2 = 0\)
-- \((-1)\cdot 1 \cdot (-2) = 2\)  
-Suma negativas = \(36 + 0 + 2 = 38\)
+- (3 * 4 * 3 = 36)
+- (2 * 0 * 2 = 0\)
+- ((-1) * 1 * (-2) = 2)  
+Suma negativas = (36 + 0 + 2 = 38)
 
 Resultado:
 
@@ -242,7 +242,7 @@ $$
 $$
 
 ### Solución
-Elegimos expandir por la **columna 2** (tiene ceros):
+Elegimos expandir la matriz copiando y duplicando las primeras dos columnas y agregandolas al fina :
 
 Sólo el elemento \(a_{2,2}=3\) aporta:
 
