@@ -1,12 +1,16 @@
+
+# Fundamentos de Algebra
+
 # Ejercicios de Álgebra Lineal — Determinantes y Aplicaciones
 
-Información del Estudiante
+## Información del Estudiante
+- **Nombre:** Euruviel Márquez Martínez  
+- **Matrícula:**  SW2509018
+- **Grupo:** 1C 
+- **Carrera:** TSW  
+- **Cuatrimestre:** Primero  
+- **Profesor:** Jorge Javier Pedrozo Romero  
 
-Nombre: Euruviel Márquez Martínez
-
-Grupo: 1C
-
-Materia: Fundamentos de Álgebra
 
 
 ---
